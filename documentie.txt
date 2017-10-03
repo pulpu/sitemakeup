@@ -1,0 +1,19 @@
+
+Am instalat tweenLite cu metoda de pe pagina asta  https://stackoverflow.com/questions/37135894/using-tweenmax-in-angular2-project 
+a doua metoda 
+
+How you use :
+ run cmd
+and in the site root execute ng server  // this command is to create a srever on port http://localhost:4200
+and node-sass -o src/css src/sass/master.scss -w  // this command is to compilate you scss file 
+
+
+
+to do:
+
+ 2) de focut roter la meniu
+https://angular-university.io/lesson/angular2-router-initial-setup
+
+3) de facut in asa fel cad apasi pe mirese sa aleaga componenta grid cu info despre mirese, trebuie sa fie doar o componenta grid
+cu mai multe variante de grid
+

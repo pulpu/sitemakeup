@@ -1,0 +1,37 @@
+git init - initiaza git in acel folder
+git config --global user.name 'Pulpu Qu'
+git config --global user.email 'gabriel.cosuta@gmail.com'
+
+git add filenalme // adauga un fisier in repozitori
+git add . // adauga toate fisierele si folderele in repozitori
+git *.html // si o sa adauge toate fisierele de tip html 
+
+
+git status // iti spune ce fisiere si foldere sunt in repositori
+
+git rm --cached numefisier // scoate din repositori fisierul
+
+git commit -m "o descriere" // commit fisierele modificate
+
+git branch numebranch // creezi un branch si ii dai un nume
+
+git checkout numebranch // intri in branciul cu numele respectiv
+
+git merge numebranch -m "o descsriere" // merge un branch cu master
+git remote add origin https://github.com/pulpu/makeupweb
+
+git remote set-url origin git://new.url.here // change remote git repository
+
+
+git push -u origin master // sa tirmiti branch master in remote repository
+
+git log // sa vezi o lista cu toate commiturile
+
+git reset --hard idcommit // 
+
+echo "# makeupweb" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git remote add origin https://github.com/pulpu/makeupweb.git
+  git push -u origin master
