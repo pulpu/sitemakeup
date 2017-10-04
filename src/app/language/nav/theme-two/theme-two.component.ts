@@ -22,14 +22,9 @@ export class ThemeTwoComponent implements OnInit {
           console.log(params['category'])
         }
       )
-    this.categoriesService.categoryActivated.next(this.user);
-    console.log('first log: ' + this.user);
   }
 
-  onActivated() {
-      this.categoriesService.categoryActivated.next(this.user);
-      console.log('second log: ' + this.user);
-  }
+
 
 }
 

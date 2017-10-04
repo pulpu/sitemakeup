@@ -6,33 +6,33 @@
   <div class="logo"></div>
   <ul class="menu" id="menu">
     <li class="menu__item" name="item_Cover">
-      <a class="menu__link " data-colors="Cover" (click)="onClick('cover')" routerLinkActive="menu__link--active">Cover {{ categoryCoverAcivated ? '(activated)' : 'nu e activat'}}</a>
+      <a class="menu__link " data-colors="Cover" (click)="onClick('cover')" [ngClass]="{'menu__link--active': categoryid === 'cover' }">Cover</a>
     </li>
     <li class="menu__item" name="item_Editorial">
-      <a class="menu__link " data-colors="Editorial" (click)="onClick('editorial')" routerLinkActive=" menu__link--active ">Editorial</a>
+      <a class="menu__link " data-colors="Editorial" (click)="onClick('editorial')" [ngClass]="{'menu__link--active': categoryid === 'editorial'}">Editorial </a>
     </li>
-    <li class="menu__item " name="item_Video ">
-      <a class="menu__link " data-colors="Video " (click)="onClick('video')" routerLinkActive="menu__link--active ">Video</a>
+    <li class=" menu__item " name="item_Video ">
+      <a class="menu__link " data-colors="Video " (click)="onClick( 'video')" [ngClass]="{ 'menu__link--active': categoryid==='video'}">Video</a>
     </li>
     <li class="menu__item " name="item_Bridal ">
-      <a class="menu__link menu__link--active " data-colors="Bridal " routerLink="/Bridal " routerLinkActive="menu__link--active ">Bridal</a>
+      <a class="menu__link menu__link--active " data-colors="Bridal" (click)="onClick( 'bridal')" [ngClass]="{'menu__link--active': categoryid === 'bridal'}">Bridal</a>
     </li>
-    <li class="menu__item " name="item_Print ">
-      <a class="menu__link " data-colors="Print " routerLink="/Print " routerLinkActive="menu__link--active ">Print</a>
+    <li class=" menu__item " name="item_Print ">
+      <a class="menu__link " data-colors="Print" (click)="onClick( 'print')" [ngClass]="{ 'menu__link--active': categoryid==='print'}">Print</a>
     </li>
     <li class="menu__item " name="item_Backstage ">
-      <a class="menu__link " data-colors="Backstage " routerLink="/Backstage " routerLinkActive="menu__link--active ">Backstage</a>
-      <ul class="menu__sub ">
+      <a class="menu__link " data-colors="Backstage" (click)="onClick( 'backstage')" [ngClass]="{ 'menu__link--active': categoryid==='backstage'}">Backstage</a>
+      <ul class=" menu__sub ">
         <li class="menu__sub-item ">
-          <a class="menu__link menu__link--secondary " data-colors="MakingOff " routerLink="/MakingOff " routerLinkActive="menu__link--active ">Making off</a>
+          <a class="menu__link menu__link--secondary" data-colors="MakingOff" (click)="onClick( 'makingoff')" [ngClass]="{ 'menu__link--active': categoryid==='makingoff'}">Making off</a>
         </li>
         <li class="menu__sub-item ">
-          <a class="menu__link menu__link--secondary " data-colors="Caracters " routerLink="/Caracters " routerLinkActive="menu__link--active ">Characters</a>
+          <a class="menu__link menu__link--secondary" data-colors="Caracters" (click)="onClick( 'caracters')" [ngClass]="{ 'menu__link--active': categoryid==='caracters'}">Characters</a>
         </li>
       </ul>
     </li>
-    <li class="menu__item " name="item_Contact ">
-      <a class="menu__link " data-colors="Contact " routerLink="/Contact " routerLinkActive="menu__link--active ">Contact</a>
+    <li class=" menu__item " name="item_Contact ">
+      <a class="menu__link " data-colors="Contact " (click)="onClick( 'contact')" [ngClass]="{ 'menu__link--active': categoryid==='contact'}">Contact</a>
     </li>
   </ul>
   <ng-content></ng-content>
@@ -41,5 +41,5 @@
     <a class="social-icon__link " href=" "><i class="icon icon--youtube "></i></a>
     <a class="social-icon__link " href=" "><i class="icon icon--instagram "></i></a>
   </div>
-  <div class="ornament-line "></div>
+  <div class="ornament-line"></div>
 </nav>
