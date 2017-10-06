@@ -10,9 +10,13 @@ and node-sass -o src/css src/sass/master.scss -w  // this command is to compilat
 
 
 to do:
+	- import data from Json - (in progress)
+ 	- change color for active links
+ 	- generate nav from json (http://www.c-sharpcorner.com/article/angular-2-load-json-data/)
+ 	- to populate the category, with json info
 
- 2) de focut roter la meniu
 https://angular-university.io/lesson/angular2-router-initial-setup
+
 
 3) de facut in asa fel cad apasi pe mirese sa aleaga componenta grid cu info despre mirese, trebuie sa fie doar o componenta grid
 cu mai multe variante de grid

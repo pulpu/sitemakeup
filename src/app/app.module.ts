@@ -1,8 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule } from '@angular/http';
 
 import { Title } from '@angular/platform-browser';
-import { CategoriesService } from './categories.service';
+import { CategoriesService } from './categories.service';// ----------------- categoriesService -------------
 
 import { AppComponent } from './app.component';
 import { LanguageComponent } from './language/language.component';
@@ -16,6 +17,7 @@ import { PageNotFoundComponent } from './language/page-not-found/page-not-found.
 import { HomeComponent } from './language/home/home.component';
 import { AppRouterModule } from './app-routing.module';
 import { ErrorPageComponent } from './language/error-page/error-page.component';
+import { ServerService } from './server.service';
 
 
 
@@ -36,9 +38,10 @@ import { ErrorPageComponent } from './language/error-page/error-page.component';
   ],
   imports: [
     BrowserModule,
-    AppRouterModule
+    AppRouterModule,
+    HttpModule
   ],
-  providers: [Title, CategoriesService],
+  providers: [Title, CategoriesService, ServerService], // ----------------- categoriesService -------------
   bootstrap: [AppComponent]
 })
 export class AppModule {

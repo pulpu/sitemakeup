@@ -1,1 +1,19 @@
 <h1>------------------------------------------------- {{user}}--------------------</h1>
+<div style="margin-left:600px">
+	<ul class="list-group">
+		<!-- <li class="list-group-item" *ngFor="let category of server">{{category.agentia}} (Id: {{category.id}}) </li>
+ -->
+		<li class="list-group-item" *ngFor="let car of cars">{{car.title}}
+			<ul>
+				<li *ngFor="let item of car.subMenu">{{item}}</li>
+			</ul>
+		</li>
+	</ul>
+	<br>
+	<br>
+	<button class="btn btn-primary" (click)="onSave()">Save on the database</button>
+	<button class="btn btn-primary" (click)="onGet()">Get from database</button>
+	<ul class="list-group">
+		<li class="list-group-item" *ngFor="let item of server">{{item}}</li>
+	</ul>
+</div>

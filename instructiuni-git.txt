@@ -35,3 +35,6 @@ echo "# makeupweb" >> README.md
   git commit -m "first commit"
   git remote add origin https://github.com/pulpu/makeupweb.git
   git push -u origin master
+
+
+  usefully http://rogerdudler.github.io/git-guide/

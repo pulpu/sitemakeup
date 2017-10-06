@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -8,26 +8,26 @@ import { Router, ActivatedRoute } from '@angular/router';
   styleUrls: ['./language.component.css']
 })
 export class LanguageComponent implements OnInit {
-
-  constructor(private router: Router, private route: ActivatedRoute) { }
+data; 
+  constructor(private router: Router) { }
 
   ngOnInit() {
 
   }
 
-onSelect(language) {
-	let currentUrl = this.router.url; /// this will give you current url
-            console.log("currentUrl: " + currentUrl)
+  onSelect(language) {
+  	let currentUrl = this.router.url; /// this will give you current url
+              console.log("currentUrl: " + currentUrl)
 
-	let res = currentUrl.split("/");
-		  res[2] = language;
-            console.log("res: " + res)
+  	let res = currentUrl.split("/");
+  		  res[2] = language;
+              console.log("res: " + res)
 
-	let newurl = res.join('').toString()
-            console.log("newurl: " + newurl)
+  	let newurl = res.join('').toString()
+              console.log("newurl: " + newurl)
 
-	this.router.navigate( [ newurl]);
-};
+  	this.router.navigate( [ newurl]);
+  };
 
 
 }

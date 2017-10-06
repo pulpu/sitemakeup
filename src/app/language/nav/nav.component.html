@@ -5,34 +5,13 @@
 <nav id="nav">
   <div class="logo"></div>
   <ul class="menu" id="menu">
-    <li class="menu__item" name="item_Cover">
-      <a class="menu__link " data-colors="Cover" (click)="onClick('cover')" [ngClass]="{'menu__link--active': categoryid === 'cover' }">Cover</a>
-    </li>
-    <li class="menu__item" name="item_Editorial">
-      <a class="menu__link " data-colors="Editorial" (click)="onClick('editorial')" [ngClass]="{'menu__link--active': categoryid === 'editorial'}">Editorial </a>
-    </li>
-    <li class=" menu__item " name="item_Video ">
-      <a class="menu__link " data-colors="Video " (click)="onClick( 'video')" [ngClass]="{ 'menu__link--active': categoryid==='video'}">Video</a>
-    </li>
-    <li class="menu__item " name="item_Bridal ">
-      <a class="menu__link menu__link--active " data-colors="Bridal" (click)="onClick( 'bridal')" [ngClass]="{'menu__link--active': categoryid === 'bridal'}">Bridal</a>
-    </li>
-    <li class=" menu__item " name="item_Print ">
-      <a class="menu__link " data-colors="Print" (click)="onClick( 'print')" [ngClass]="{ 'menu__link--active': categoryid==='print'}">Print</a>
-    </li>
-    <li class="menu__item " name="item_Backstage ">
-      <a class="menu__link " data-colors="Backstage" (click)="onClick( 'backstage')" [ngClass]="{ 'menu__link--active': categoryid==='backstage'}">Backstage</a>
-      <ul class=" menu__sub ">
-        <li class="menu__sub-item ">
-          <a class="menu__link menu__link--secondary" data-colors="MakingOff" (click)="onClick( 'makingoff')" [ngClass]="{ 'menu__link--active': categoryid==='makingoff'}">Making off</a>
-        </li>
-        <li class="menu__sub-item ">
-          <a class="menu__link menu__link--secondary" data-colors="Caracters" (click)="onClick( 'caracters')" [ngClass]="{ 'menu__link--active': categoryid==='caracters'}">Characters</a>
+    <li class="menu__item" name="item_Cover" *ngFor="let title of menu">
+      <a class="menu__link " [attr.data-colors]="title.title" (click)="onClick(title.title)" [ngClass]="{'menu__link--active': categoryid === title.title}">{{ title.title }}</a>
+      <ul class="menu__sub">
+        <li class="menu__sub-item" *ngFor="let subtitle of title.subMenu">
+          <a class="menu__link menu__link--secondary" [attr.data-colors]="subtitle" (click)="onClick(subtitle)" [ngClass]="{ 'menu__link--active': categoryid=== subtitle}">{{ subtitle }}</a>
         </li>
       </ul>
-    </li>
-    <li class=" menu__item " name="item_Contact ">
-      <a class="menu__link " data-colors="Contact " (click)="onClick( 'contact')" [ngClass]="{ 'menu__link--active': categoryid==='contact'}">Contact</a>
     </li>
   </ul>
   <ng-content></ng-content>
