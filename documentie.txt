@@ -10,10 +10,8 @@ and node-sass -o src/css src/sass/master.scss -w  // this command is to compilat
 
 
 to do:
-	- import data from Json - (in progress)
  	- change color for active links
- 	- generate nav from json (http://www.c-sharpcorner.com/article/angular-2-load-json-data/)
- 	- to populate the category, with json info
+ 	- to populate the category, with json info, I'm close I can populate when enter on page but is not change on click on other link
 
 https://angular-university.io/lesson/angular2-router-initial-setup
 

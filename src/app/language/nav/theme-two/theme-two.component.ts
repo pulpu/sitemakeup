@@ -57,12 +57,14 @@ export class ThemeTwoComponent implements OnInit {
           console.log(params['category'])
         }
       )
-
+    // ----------------- for grid -------------
     this.serverService.getServer()
       .subscribe(
-          (server: any[]) => this.server = server,
+          (server: any[]) => this.server = server[this.user]['items'],
           (error) => console.log(error)
         );
+    //-------------- end for grid  ------------
+
 
       this.cars = [
         {"title" : "Saab"},
@@ -71,16 +73,6 @@ export class ThemeTwoComponent implements OnInit {
         },
         {"title" : "BMW"}
       ];
-
-
-      // // ----------------- for grid -------------
-      // this.serverService.getServer()
-      //   .subscribe(
-      //       (server: any[]) => this.grid = server[this.user],
-      //       (error) => console.log(error)
-      //     );
-      //  //-------------- end for grid  ------------
-
 
   }
 

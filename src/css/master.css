@@ -602,7 +602,7 @@ nav {
   margin-right: auto; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) {
     .language {
-      bottom: 9%;
+      bottom: 15%;
       font-size: 15px;
       width: 38%;
       text-align: center; } }
@@ -664,7 +664,7 @@ nav {
     font-size: 32px; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) {
     .social-icon {
-      bottom: 3%;
+      bottom: 9%;
       width: 36%;
       text-align: center; }
       .social-icon .icon {

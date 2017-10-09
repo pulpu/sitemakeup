@@ -264,7 +264,7 @@ nav {
   margin-right: auto;
 
   @include breakpoint(small-portrait) {
-    bottom: 9%;
+    bottom: 15%;
     font-size: 15px; //left: 31%;
     width: 38%;
     text-align: center;
@@ -339,7 +339,7 @@ nav {
   }
 
   @include breakpoint(small-portrait) {
-    bottom: 3%;
+    bottom: 9%;
     width: 36%;
     text-align: center;
     .icon {
@@ -412,6 +412,8 @@ nav {
     z-index: 9;
   }
 }
+
+
 
 
 

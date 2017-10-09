@@ -1,0 +1,98 @@
+<html lang="en" class="gr__localhost">
+
+<head>
+	<style type="text/css">
+	@charset "UTF-8";
+	[ng\:cloak],
+	[ng-cloak],
+	[data-ng-cloak],
+	[x-ng-cloak],
+	.ng-cloak,
+	.x-ng-cloak,
+	.ng-hide:not(.ng-hide-animate) {
+		display: none !important;
+	}
+
+	ng\:form {
+		display: block;
+	}
+
+	</style>
+	<meta charset="UTF-8">
+	<title>Dora MakeUp Artist</title>
+	<script language="JavaScript">
+	js_page = 'video';
+
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+	<!-- Latest bootstrap compiled and minified CSS -->
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<!-- for lightbox -->
+	<link rel="stylesheet" href="node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+	<!-- css -->
+	<link rel="stylesheet" href="/newDora/stylesheets/master.css">
+	<!-- AngularJS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+</head>
+
+<body ng-app="doraApp" data-gr-c-s-loaded="true" class="ng-scope" cz-shortcut-listen="true">
+	<div class="board-cut"></div>
+	<nav class="menu--xs">
+		<a id="menuButton" href=""><i class="icon icon--hamburger"></i></a>
+		<div class=".logo logo--xs"></div>
+	</nav>
+	<nav id="nav" class="nav__links ng-scope" ng-controller="menuController as menuCtrl">
+		<div class="logo"></div>
+		<ul class="menu" id="menu">
+			<li class="menu__item" name="item_Cover" ng-click="resetActive()" style="margin-left: 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><a class="menu__link " data-colors="Cover" href="index.php">Cover</a></li>
+			<li class="menu__item" name="item_Editorial" ng-click="resetActive()" style="margin-left: 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><a class="menu__link " data-colors="Editorial" href="editorial.php">Editorial</a></li>
+			<li class="menu__item" name="item_Video" ng-click="resetActive()" style="margin-left: 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><a class="menu__link menu__link--active" data-colors="Video" href="video.php">Video</a></li>
+			<li class="menu__item" name="item_Bridal" ng-click="resetActive()" style="margin-left: 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><a class="menu__link " data-colors="Bridal" href="mirese.php">Bridal</a></li>
+			<li class="menu__item" name="item_Print" ng-click="resetActive()" style="margin-left: 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><a class="menu__link" data-colors="Print" href="#">Print</a></li>
+			<li class="menu__item" name="item_Backstage" style="margin-left: 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><a class="menu__link" ng-click="addActiveBackstage()" data-colors="Backstage" href="#">Backstage</a>
+				<ul ng-class="addBackstage" class="menu__sub">
+					<li class="menu__sub-item"><a class="menu__link menu__link--secondary" data-colors="MakingOff" href="#">Making off</a></li>
+					<li class="menu__sub-item"><a class="menu__link menu__link--secondary" data-colors="Caracters" href="#">Characters</a></li>
+				</ul>
+			</li>
+			<li class="menu__item" name="item_Contact" ng-click="resetActive()" style="margin-left: 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><a class="menu__link" data-colors="Contact" href="#">Contact</a></li>
+		</ul>
+		<div class="language" id="language"><a class="language__link" href="">english</a><span> / </span><a class="language__link language__link--active" href="">romana</a></div>
+		<div class="social-icon">
+			<a class="social-icon__link" href=""><i class="icon icon--facebook"></i></a>
+			<a class="social-icon__link" href=""><i class="icon icon--youtube"></i></a>
+			<a class="social-icon__link" href=""><i class="icon icon--instagram"></i></a>
+		</div>
+		<div class="ornament-line"></div>
+	</nav>
+	<div class="layout">
+		<div ng-class="class" ng-controller="paragraphController as paragraphCtrl" class="ng-scope mask">
+			<div class="paragraph paragraph__wrapper">
+				<div class="paragraph paragraph__controller" ng-click="changeParagraphClass()">
+					<i ng-class="icon" class="icon icon--cross icon--light"></i>
+				</div>
+				<div class="paragraph paragraph__content" ng-class="disable">
+					<h2 class="paragraph paragraph__title">Title EDITORIAL</h2>
+					<blockquote class="paragraph paragraph__blockquote">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+					</blockquote>
+				</div>
+			</div>
+		</div>
+		<!-- include jQuery -->
+		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+		<!-- include pentru pentru animatii -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+		<!-- Amgular app -->
+		<script src="angularJS/app.js"></script>
+		<!-- Amgular Controller -->
+		<script src="angularJS/controller.js"></script>
+		<!-- lightbox -->
+		<script src="node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+		<!-- Once the page is loaded, initalize the plug-in. -->
+		<script src="javascript/main.js"></script>
+	</div>
+</body>
+
+</html>
