@@ -10,8 +10,14 @@ and node-sass -o src/css src/sass/master.scss -w  // this command is to compilat
 
 
 to do:
+	- Install bootstrap !!!
+
  	- change color for active links
- 	- to populate the category, with json info, I'm close I can populate when enter on page but is not change on click on other link
+ 	- to populate the category, from Json, I'm close, I can populate when enter on page but is not change on click on another link. and is not finish the scc for all the details and don't forget to update the structure of the database
+ 	- the paragraph to appear when entering on a page
+ 	- create a load more button or make it work on mouse scroll
+ 	-refactoring 
+
 
 https://angular-university.io/lesson/angular2-router-initial-setup
 
