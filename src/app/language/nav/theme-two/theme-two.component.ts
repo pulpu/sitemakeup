@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Params } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import { ServerService } from '../../../server.service';
 import { Response } from '@angular/http';
 
@@ -12,7 +12,18 @@ export class ThemeTwoComponent implements OnInit  {
   user: string;
   server: any[];
 
-  constructor(private route: ActivatedRoute, private serverService : ServerService) {
+  constructor(private route: ActivatedRoute, private serverService : ServerService, private router: Router) {
+      
+      router.events.subscribe((val) => {
+     // ----------------- for grid -------------
+        this.serverService.getServer()
+          .subscribe(
+              (server: any[]) => this.server = server[this.user]['items'],
+              (error) => console.log(error)
+            );
+        //-------------- end for grid  ------------
+        })
+
    }
 
 
@@ -26,14 +37,6 @@ export class ThemeTwoComponent implements OnInit  {
           console.log(params['category'])
         }
       )
-
-    // ----------------- for grid -------------
-    this.serverService.getServer()
-      .subscribe(
-          (server: any[]) => this.server = server[this.user]['items'],
-          (error) => console.log(error)
-        );
-    //-------------- end for grid  ------------
   }
 
   onSave(){
@@ -44,16 +47,4 @@ export class ThemeTwoComponent implements OnInit  {
         );
   }
 
-  onclick(){
-  // ----------------- for grid -------------
-    this.serverService.getServer()
-      .subscribe(
-          (server: any[]) => this.server = server[this.user]['items'],
-          (error) => console.log(error)
-        );
-    //-------------- end for grid  ------------
-  }
 }
-
-
-// pe pagina asta trebuie cumva sa fac ca sa afiseze categoria selectata dintr-un json

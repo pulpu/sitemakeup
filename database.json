@@ -1,267 +1,270 @@
 {
-	"homeintro": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsumloremlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
-	"cover":
-	{
-		"paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
-		"items": [
-		{
-			"id": 1,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu",
-			"agentia": "Icon",
-			"conpania": "Coca-Cola",
-			"campania": "7Up Setea"
-		},
-		{
-			"id": 2,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu 2",
-			"agentia": "Icon 2",
-			"conpania": "Coca-Cola 2",
-			"campania": "7Up Setea 2"
-		},
-		{
-			"id": 3,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu 3",
-			"agentia": "Icon 3",
-			"conpania": "Coca-Cola 3",
-			"campania": "7Up Setea 3"
-		}]
-	},
-	"editorial":
-	{
-		"paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
-		"items": [
-		{
-			"id": 1,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu",
-			"agentia": "Icon",
-			"conpania": "Coca-Cola",
-			"campania": "7Up Setea"
-		},
-		{
-			"id": 2,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu 2",
-			"agentia": "Icon 2",
-			"conpania": "Coca-Cola 2",
-			"campania": "7Up Setea 2"
-		},
-		{
-			"id": 3,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu 3",
-			"agentia": "Icon 3",
-			"conpania": "Coca-Cola 3",
-			"campania": "7Up Setea 3"
-		}]
-	},
-	"video":
-	{
-		"paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
-		"items": [
-		{
-			"id": 1,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu",
-			"agentia": "Icon",
-			"conpania": "Coca-Cola",
-			"campania": "7Up Setea"
-		},
-		{
-			"id": 2,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu 2",
-			"agentia": "Icon 2",
-			"conpania": "Coca-Cola 2",
-			"campania": "7Up Setea 2"
-		},
-		{
-			"id": 3,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu 3",
-			"agentia": "Icon 3",
-			"conpania": "Coca-Cola 3",
-			"campania": "7Up Setea 3"
-		}]
-	},
-	"bride":
-	{
-		"paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
-		"items": [
-		{
-			"id": 1,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu",
-			"agentia": "Icon",
-			"conpania": "Coca-Cola",
-			"campania": "7Up Setea"
-		},
-		{
-			"id": 2,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu 2",
-			"agentia": "Icon 2",
-			"conpania": "Coca-Cola 2",
-			"campania": "7Up Setea 2"
-		},
-		{
-			"id": 3,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu 3",
-			"agentia": "Icon 3",
-			"conpania": "Coca-Cola 3",
-			"campania": "7Up Setea 3"
-		}]
-	},
-	"print":
-	{
-		"paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
-		"items": [
-		{
-			"id": 1,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu",
-			"agentia": "Icon",
-			"conpania": "Coca-Cola",
-			"campania": "7Up Setea"
-		},
-		{
-			"id": 2,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu 2",
-			"agentia": "Icon 2",
-			"conpania": "Coca-Cola 2",
-			"campania": "7Up Setea 2"
-		},
-		{
-			"id": 3,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu 3",
-			"agentia": "Icon 3",
-			"conpania": "Coca-Cola 3",
-			"campania": "7Up Setea 3"
-		}]
-	},
-	"backstage":
-	{
-		"paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
-		"items": [
-		{
-			"id": 1,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu",
-			"agentia": "Icon",
-			"conpania": "Coca-Cola",
-			"campania": "7Up Setea"
-		},
-		{
-			"id": 2,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu 2",
-			"agentia": "Icon 2",
-			"conpania": "Coca-Cola 2",
-			"campania": "7Up Setea 2"
-		},
-		{
-			"id": 3,
-			"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-			"photographer": "Cosmin Gogu 3",
-			"agentia": "Icon 3",
-			"conpania": "Coca-Cola 3",
-			"campania": "7Up Setea 3"
-		}],
-		"makingoff":
-		{
-			"paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
-			"items": [
-			{
-				"id": 1,
-				"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-				"photographer": "Cosmin Gogu",
-				"agentia": "Icon",
-				"conpania": "Coca-Cola",
-				"campania": "7Up Setea"
-			},
-			{
-				"id": 2,
-				"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-				"photographer": "Cosmin Gogu 2",
-				"agentia": "Icon 2",
-				"conpania": "Coca-Cola 2",
-				"campania": "7Up Setea 2"
-			},
-			{
-				"id": 3,
-				"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-				"photographer": "Cosmin Gogu 3",
-				"agentia": "Icon 3",
-				"conpania": "Coca-Cola 3",
-				"campania": "7Up Setea 3"
-			}]
-		},
-		"caracters":
-		{
-			"paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
-			"items": [
-			{
-				"id": 1,
-				"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-				"photographer": "Cosmin Gogu",
-				"agentia": "Icon",
-				"conpania": "Coca-Cola",
-				"campania": "7Up Setea"
-			},
-			{
-				"id": 2,
-				"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-				"photographer": "Cosmin Gogu 2",
-				"agentia": "Icon 2",
-				"conpania": "Coca-Cola 2",
-				"campania": "7Up Setea 2"
-			},
-			{
-				"id": 3,
-				"img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
-				"photographer": "Cosmin Gogu 3",
-				"agentia": "Icon 3",
-				"conpania": "Coca-Cola 3",
-				"campania": "7Up Setea 3"
-			}]
-		}
-	},
-	"contact":
-	{
-		"email": "dora.codita@gmail.com",
-		"tel": "0722.206.708",
-		"adress": "casa sperantei"
-	},
-	"socialmedia":
-	{
-		"facebook": "https://",
-		"youtube": "https://",
-		"instagram": "https://"
-	},
-	"menu": [
-	{
-		"title": "Cover"
-	},
-	{
-		"title": "Editorial"
-	},
-	{
-		"title": "Video"
-	},
-	{
-		"title": "Print"
-	},
-	{
-		"title": "Backstage",
-		"subMenu": ["Making Off", "Caracters"]
-	},
-	{
-		"title": "Contact"
-	}]
+  "homeintro": "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsumloremlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+  "cover":
+  {
+    "paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
+    "items": [
+    {
+      "id": 1,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu",
+      "agentia": "Icon",
+      "conpania": "Coca-Cola",
+      "campania": "7Up Setea"
+    },
+    {
+      "id": 2,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu 2",
+      "agentia": "Icon 2",
+      "conpania": "Coca-Cola 2",
+      "campania": "7Up Setea 2"
+    },
+    {
+      "id": 3,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu 3",
+      "agentia": "Icon 3",
+      "conpania": "Coca-Cola 3",
+      "campania": "7Up Setea 3"
+    }]
+  },
+  "editorial":
+  {
+    "paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
+    "items": [
+    {
+      "id": 1,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu",
+      "agentia": "Icon",
+      "conpania": "Coca-Cola",
+      "campania": "7Up Setea"
+    },
+    {
+      "id": 2,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu 2",
+      "agentia": "Icon 2",
+      "conpania": "Coca-Cola 2",
+      "campania": "7Up Setea 2"
+    },
+    {
+      "id": 3,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu 3",
+      "agentia": "Icon 3",
+      "conpania": "Coca-Cola 3",
+      "campania": "7Up Setea 3"
+    }]
+  },
+  "video":
+  {
+    "paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
+    "items": [
+    {
+      "id": 1,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu",
+      "agentia": "Icon",
+      "conpania": "Coca-Cola",
+      "campania": "7Up Setea"
+    },
+    {
+      "id": 2,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu 2",
+      "agentia": "Icon 2",
+      "conpania": "Coca-Cola 2",
+      "campania": "7Up Setea 2"
+    },
+    {
+      "id": 3,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu 3",
+      "agentia": "Icon 3",
+      "conpania": "Coca-Cola 3",
+      "campania": "7Up Setea 3"
+    }]
+  },
+  "brides":
+  {
+    "paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
+    "items": [
+    {
+      "id": 1,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu",
+      "agentia": "Icon",
+      "conpania": "Coca-Cola",
+      "campania": "7Up Setea"
+    },
+    {
+      "id": 2,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu 2",
+      "agentia": "Icon 2",
+      "conpania": "Coca-Cola 2",
+      "campania": "7Up Setea 2"
+    },
+    {
+      "id": 3,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu 3",
+      "agentia": "Icon 3",
+      "conpania": "Coca-Cola 3",
+      "campania": "7Up Setea 3"
+    }]
+  },
+  "print":
+  {
+    "paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
+    "items": [
+    {
+      "id": 1,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu",
+      "agentia": "Icon",
+      "conpania": "Coca-Cola",
+      "campania": "7Up Setea"
+    },
+    {
+      "id": 2,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu 2",
+      "agentia": "Icon 2",
+      "conpania": "Coca-Cola 2",
+      "campania": "7Up Setea 2"
+    },
+    {
+      "id": 3,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu 3",
+      "agentia": "Icon 3",
+      "conpania": "Coca-Cola 3",
+      "campania": "7Up Setea 3"
+    }]
+  },
+  "backstage":
+  {
+    "paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
+    "items": [
+    {
+      "id": 1,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu",
+      "agentia": "Icon",
+      "conpania": "Coca-Cola",
+      "campania": "7Up Setea"
+    },
+    {
+      "id": 2,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu 2",
+      "agentia": "Icon 2",
+      "conpania": "Coca-Cola 2",
+      "campania": "7Up Setea 2"
+    },
+    {
+      "id": 3,
+      "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+      "photographer": "Cosmin Gogu 3",
+      "agentia": "Icon 3",
+      "conpania": "Coca-Cola 3",
+      "campania": "7Up Setea 3"
+    }],
+    "makingoff":
+    {
+      "paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
+      "items": [
+      {
+        "id": 1,
+        "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+        "photographer": "Cosmin Gogu",
+        "agentia": "Icon",
+        "conpania": "Coca-Cola",
+        "campania": "7Up Setea"
+      },
+      {
+        "id": 2,
+        "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+        "photographer": "Cosmin Gogu 2",
+        "agentia": "Icon 2",
+        "conpania": "Coca-Cola 2",
+        "campania": "7Up Setea 2"
+      },
+      {
+        "id": 3,
+        "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+        "photographer": "Cosmin Gogu 3",
+        "agentia": "Icon 3",
+        "conpania": "Coca-Cola 3",
+        "campania": "7Up Setea 3"
+      }]
+    },
+    "caracters":
+    {
+      "paragraph": "A paragraph (from the Ancient Greek παράγραφος paragraphos, \"to write beside\" or \"written beside\") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.[1][2] Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
+      "items": [
+      {
+        "id": 1,
+        "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+        "photographer": "Cosmin Gogu",
+        "agentia": "Icon",
+        "conpania": "Coca-Cola",
+        "campania": "7Up Setea"
+      },
+      {
+        "id": 2,
+        "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+        "photographer": "Cosmin Gogu 2",
+        "agentia": "Icon 2",
+        "conpania": "Coca-Cola 2",
+        "campania": "7Up Setea 2"
+      },
+      {
+        "id": 3,
+        "img": "https://i.pinimg.com/736x/2e/48/f1/2e48f1fabc1a72a15dc4ba16f4a9403a--fashion-magazine-covers-fashion-magazines.jpg",
+        "photographer": "Cosmin Gogu 3",
+        "agentia": "Icon 3",
+        "conpania": "Coca-Cola 3",
+        "campania": "7Up Setea 3"
+      }]
+    }
+  },
+  "contact":
+  {
+    "email": "dora.codita@gmail.com",
+    "tel": "0722.206.708",
+    "adress": "casa sperantei"
+  },
+  "socialmedia":
+  {
+    "facebook": "https://",
+    "youtube": "https://",
+    "instagram": "https://"
+  },
+  "menu": [
+  {
+    "title": "cover"
+  },
+  {
+    "title": "editorial"
+  },
+  {
+    "title": "brides"
+  },
+  {
+    "title": "video"
+  },
+  {
+    "title": "print"
+  },
+  {
+    "title": "backstage",
+    "subMenu": ["making Off", "caracters"]
+  },
+  {
+    "title": "contact"
+  }]
 }

@@ -11,18 +11,18 @@ and node-sass -o src/css src/sass/master.scss -w  // this command is to compilat
 
 to do:
 
- 	- change color for active links
- 	- category change when click on menu links. 
- 			- and is not finish the scc for all the details 
- 			- and don't forget to update the structure of the database
- 	- the paragraph to appear when entering on a page
- 	- create a load more button or make it work on mouse scroll
- 	-refactoring 
+	PBI nr. | what to do                                   | tasks								| - done
+	0001	| change color for active links				   | update styling						| - done
+	0002	| category change when click on menu links	   | add router.events.subscribe 		| - done
+	0003	| finish the css for listing 				   | create styling and update markup	| 
+	0004	| update the structure of the database		   | update database					|
+	0005	| add the paragraph on the every category page | add animation (angular animation)	|
+	0006 	| load more funcion for listing				   | create ajax 						|
+	0007	| add better comments						   | add comments						|
+	0008	| refactoring								   | refactoring code					|
+	0009	| populate database							   | update database					|
 
 
 https://angular-university.io/lesson/angular2-router-initial-setup
 
-
-3) de facut in asa fel cad apasi pe mirese sa aleaga componenta grid cu info despre mirese, trebuie sa fie doar o componenta grid
-cu mai multe variante de grid
 
