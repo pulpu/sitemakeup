@@ -15,12 +15,11 @@ import { CategoriesService } from '../../categories.service'; // ---------------
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-  public categorys;
+  public categorys: any[];
   public categoryid;
   public menu;
 
-  categoryCoverAcivated = false;
-  categoryEditorialAcivated = false;
+ 
 
   constructor(
     private router: Router, 
@@ -32,22 +31,9 @@ export class NavComponent implements OnInit {
 
 
   ngOnInit(){
-    // ----------------- categoriesService ---------------
-      this.categoriesService.categoryActivated.subscribe(
-          (category: string) => {
-            if(category === 'cover') {
-                this.categoryCoverAcivated = true;
-                this.categoryEditorialAcivated = false;
-            } else if (category === 'editorial'){
-              this.categoryEditorialAcivated = true;
-              this.categoryCoverAcivated = false;
-            }
-          }
-        );
-      //-------------- end categoriesService ------------
-
 
       // ----------------- categoriesService -------------
+     // aici populeaza variavila categoryid care o folosesti sa verifici daca linkul este activ
        let currentUrl = this.router.url; /// this will give you current url
        let res = currentUrl.split("/");
            res = res.slice(3);
@@ -64,6 +50,7 @@ export class NavComponent implements OnInit {
             (error) => console.log(error)
           );
        //-------------- end for menu  ------------
+
   }
 
 
@@ -80,7 +67,6 @@ export class NavComponent implements OnInit {
 	}
 
   onClick(category) {
-    category = category.toLowerCase()
     // ----------------- categoriesService -------------
     this.categoriesService.categoryActivated.next(category);  // this pise of code change the class
     //-------------- end categoriesService ------------
@@ -91,8 +77,8 @@ export class NavComponent implements OnInit {
           res = res.slice(0, 3);
       var resUrl = res.join("/");
 
-      this.categorys = ["cover", "editorial", "video", "bridal", "print", "backstage", "makingoff", "caracters", "contact"];
-    
+     this.categorys = ["cover", "editorial", "video", "brides", "print", "backstage", "makingoff", "caracters", "contact"];
+
       if(this.categorys.find((element)=>{ return element === category}) === undefined ) {
         this.router.navigate( [ "/.404"], {relativeTo: this.route, queryParamsHandling: 'preserve'});
       }

@@ -141,6 +141,8 @@ nav {
   &__item {
     display: block;
     width: 100%;
+    text-transform: capitalize;
+
     @include breakpoint(small-portrait) {
       padding: 9px 0px 9px 0px;
       text-align: center;
@@ -185,7 +187,7 @@ nav {
     &-item {
       width: 100%;
       padding: 10px 0px 10px 0px;
-      text-transform: lowercase;
+      text-transform: capitalize;
     }
 
     li:last-of-type {
@@ -194,7 +196,7 @@ nav {
   }
 
   &__link {
-    color: #C5AF86; //#C89E2E;
+    color: #71654f; //#C89E2E;
     display: block;
     font-size: 25px;
     width: 100%;
@@ -248,7 +250,7 @@ nav {
     }
 
     &--active {
-      color: red; //#C89E2E;
+      color: red !important; //#C89E2E;
     }
   }
 }
@@ -412,6 +414,10 @@ nav {
     z-index: 9;
   }
 }
+
+
+
+
 
 
 

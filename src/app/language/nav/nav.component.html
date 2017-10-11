@@ -5,7 +5,7 @@
 <nav id="nav">
   <div class="logo"></div>
   <ul class="menu" id="menu">
-    <li class="menu__item" name="item_Cover" *ngFor="let title of menu">
+    <li class="menu__item" [attr.name]="title.title" *ngFor="let title of menu">
       <a class="menu__link " [attr.data-colors]="title.title" (click)="onClick(title.title)" [ngClass]="{'menu__link--active': categoryid === title.title}">{{ title.title }}</a>
       <ul class="menu__sub">
         <li class="menu__sub-item" *ngFor="let subtitle of title.subMenu">

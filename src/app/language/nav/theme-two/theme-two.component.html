@@ -1,27 +1,27 @@
-<h1>------------------- {{user}}--------------------</h1>
+<h1>	{{user}}</h1>
 <div class="container-fluid">
-  <div class="row">
-    <div *ngFor="let item of server" [ngClass]="[item.orientation === 'portrait' ? 'mt-4 col-12 col-sm-6 col-md-3 grid-item' : 'mt-4 col-12 col-sm-12 col-md-6 grid-item']">
-      <a class="fancybox" [ngStyle]="{'background-image': 'url(' + item.img + ')'}" [href]="item.img">
-        <figure class="figure">
-          <span class="figure__action"><i class="icon icon--zoom"></i></span>
-          <figcaption class="figcaption">
-            <div>
-              <div>
-                <i class="icon icon--pictures"></i>
-                <span class="figcaption__author">'Gabriel Cosuta'</span>
-              </div>
-              <div class="clearfix">
-                <span class="figcaption__brand">Coca Cola</span>
-                <span class="small-uppercase">Fotograf</span>
-              </div>
-            </div>
-          </figcaption>
-        </figure>
-      </a>
-    </div>
-    <br>
-    <br>
-    <button class="btn btn-primary" (click)="onSave()">Save on the database</button>
-    <button class="btn btn-primary" (click)="onGet()">Get from database</button>
-  </div>
+	<div class="row">
+		<div *ngFor="let item of server" [ngClass]="[item.orientation === 'portrait' ? 'mt-4 col-12 col-sm-6 col-md-3 grid-item' : 'mt-4 col-12 col-sm-12 col-md-6 grid-item']">
+			<a class="fancybox" [ngStyle]="{'background-image': 'url( /assets/images/' + item.img + ')'}" [href]="'/assets/images/' + item.img">
+				<figure class=" figure ">
+					<span class="figure__action "><i class="icon icon--zoom "></i></span>
+					<figcaption class="figcaption ">
+						<div>
+							<div>
+								<i class="icon icon--pictures "></i>
+								<span class="figcaption__author ">'Gabriel Cosuta'</span>
+							</div>
+							<div class="clearfix ">
+								<span class="figcaption__brand ">Coca Cola</span>
+								<span class="small-uppercase ">Fotograf</span>
+							</div>
+						</div>
+					</figcaption>
+				</figure>
+			</a>
+		</div>
+		<br>
+		<br>
+		<button class="btn btn-primary " (click)="onSave() ">Save on the database</button>
+		<button class="btn btn-primary " (click)="onGet() ">Get from database</button>
+	</div>
