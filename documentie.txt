@@ -14,13 +14,15 @@ to do:
 	PBI nr. | what to do                                   | tasks								| - done
 	0001	| change color for active links				   | update styling						| - done
 	0002	| category change when click on menu links	   | add router.events.subscribe 		| - done
-	0003	| finish the css for listing 				   | create styling and update markup	| 
+	0003	| finish the css for listing 				   | create styling and update markup	| - done
 	0004	| update the structure of the database		   | update database					|
-	0005	| add the paragraph on the every category page | add animation (angular animation)	|
+	0005	| add the paragraph on the every category page | add animation (angular animation)	| in progres
 	0006 	| load more funcion for listing				   | create ajax 						|
 	0007	| add better comments						   | add comments						|
 	0008	| refactoring								   | refactoring code					|
 	0009	| populate database							   | update database					|
+	0010	| create variable in sass for colors		   | create variable.scss, identify all	|
+			|											   | colors tray to keep just 3 colors	|
 
 
 https://angular-university.io/lesson/angular2-router-initial-setup

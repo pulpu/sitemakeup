@@ -142,6 +142,7 @@ nav {
     display: block;
     width: 100%;
     text-transform: capitalize;
+    cursor: pointer;
 
     @include breakpoint(small-portrait) {
       padding: 9px 0px 9px 0px;
@@ -182,6 +183,7 @@ nav {
 
     &--active {
       display: block;
+      cursor: default;
     }
 
     &-item {
@@ -196,7 +198,7 @@ nav {
   }
 
   &__link {
-    color: #71654f; //#C89E2E;
+    color: #c59844; //#C89E2E;
     display: block;
     font-size: 25px;
     width: 100%;
@@ -250,7 +252,8 @@ nav {
     }
 
     &--active {
-      color: red !important; //#C89E2E;
+      color: #dcd0af !important;
+      cursor: default;
     }
   }
 }
@@ -310,16 +313,16 @@ nav {
   }
 
   &__link {
-    color: #C5AF86; // #C89E2E;
+    color: #c59844;
     &:hover {
-      color: #C89E2E;
+      color: #222;
     }
 
     &--active {
-      color: #000;
+      color: #dcd0af;
 
       &:hover {
-        color: #000;
+        color: #dcd0af;
         cursor: default;
       }
     }
@@ -414,6 +417,20 @@ nav {
     z-index: 9;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
