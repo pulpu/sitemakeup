@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { Title } from '@angular/platform-browser';
 import { CategoriesService } from './categories.service';// ----------------- categoriesService -------------
@@ -39,7 +40,8 @@ import { ServerService } from './server.service';
   imports: [
     BrowserModule,
     AppRouterModule,
-    HttpModule
+    HttpModule,
+    BrowserAnimationsModule
   ],
   providers: [Title, CategoriesService, ServerService], // ----------------- categoriesService -------------
   bootstrap: [AppComponent]

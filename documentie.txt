@@ -16,12 +16,15 @@ to do:
 	0002	| category change when click on menu links	   | add router.events.subscribe 		| - done
 	0003	| finish the css for listing 				   | create styling and update markup	| - done
 	0004	| update the structure of the database		   | update database					|
-	0005	| add the paragraph on the every category page | add animation (angular animation)	| in progres
-	0006 	| load more funcion for listing				   | create ajax 						|
-	0007	| add better comments						   | add comments						|
-	0008	| refactoring								   | refactoring code					|
-	0009	| populate database							   | update database					|
-	0010	| create variable in sass for colors		   | create variable.scss, identify all	|
+	0005	| add the paragraph on the every category page | add animation (angular animation)	| - done
+	0006	| paragraph modal must be open when category   | - ? 
+			| page change, and maybe we must insert one    |
+			| more transition 							   |
+	0007 	| load more funcion for listing				   | create ajax 						|
+	0008	| add better comments						   | add comments						|
+	0009	| refactoring								   | refactoring code					|
+	0010	| populate database							   | update database					|
+	0011	| create variable in sass for colors		   | create variable.scss, identify all	|
 			|											   | colors tray to keep just 3 colors	|
 
 
