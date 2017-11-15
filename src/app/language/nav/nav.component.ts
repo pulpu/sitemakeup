@@ -48,6 +48,7 @@ export class NavComponent implements OnInit {
         .subscribe(
             (server: any[]) => this.menu = server['menu'],
             (error) => console.log(error)
+
           );
        //-------------- end for menu  ------------
 
@@ -87,6 +88,7 @@ export class NavComponent implements OnInit {
      // this.router.navigate( [resUrl, category], {queryParams: {allowEdit: '1'}, fragment: 'loader'}); //this is an exemple that has queryParams and fragmanet
           this.categoryid = category;
       }
+
     }
 
 

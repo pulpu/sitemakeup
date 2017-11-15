@@ -1,6 +1,7 @@
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { ServerService } from '../../../server.service';
 import { Response } from '@angular/http';
+
 import {
  Component,
  OnInit,
@@ -32,9 +33,10 @@ import {
 })
 export class ParagraphComponent implements OnInit {
 	// state = 'normal';
-	public animate = false;
+	public animate = false; // this parameter must be send by
 	user: string;
   	server: any[];
+  	
 
 	onAnimate() {
 		// this.state == 'normal' ? this.state = 'highlighted' : this.state = 'normal';
@@ -49,6 +51,8 @@ export class ParagraphComponent implements OnInit {
               (server: any[]) => this.server = server[this.user]['paragraph'],
               (error) => console.log(error)
             );
+            this.animate = false; // PBI 0006
+
         //-------------- end for grid  ------------
         })
 
@@ -62,7 +66,8 @@ export class ParagraphComponent implements OnInit {
 	          this.user = params['category'];
 	          console.log(params['category'])
 	        }
-	      )
+	      )    
+
   }
 
 }
