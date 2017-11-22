@@ -10,9 +10,9 @@ import { AppComponent } from './app.component';
 import { LanguageComponent } from './language/language.component';
 import { NavComponent } from './language/nav/nav.component';
 import { ParagraphComponent } from './language/nav/paragraph/paragraph.component';
-import { ThemeOneComponent } from './language/nav/theme-one/theme-one.component';
+import { AdminComponent } from './language/nav/admin/admin.component';
 import { ThemeTwoComponent } from './language/nav/theme-two/theme-two.component';
-import { ThemeThreeComponent } from './language/nav/theme-three/theme-three.component';
+import { IntroComponent } from './language/nav/intro/intro.component';
 import { ThemeVideoComponent } from './language/nav/theme-video/theme-video.component';
 import { PageNotFoundComponent } from './language/page-not-found/page-not-found.component';
 import { HomeComponent } from './language/home/home.component';
@@ -29,9 +29,9 @@ import { ServerService } from './server.service';
     NavComponent,
     LanguageComponent,
     ParagraphComponent,
-    ThemeOneComponent,
+    AdminComponent,
     ThemeTwoComponent,
-    ThemeThreeComponent,
+    IntroComponent,
     ThemeVideoComponent,
     PageNotFoundComponent,
     HomeComponent,

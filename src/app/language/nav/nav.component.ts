@@ -75,8 +75,13 @@ export class NavComponent implements OnInit {
       let currentUrl = this.router.url; /// this will give you current url
 
       var res = currentUrl.split("/");
+      console.log("res: ", res);
           res = res.slice(0, 3);
+                console.log("res2: ", res);
+
       var resUrl = res.join("/");
+            console.log("resUrl: ", resUrl);
+
 
      this.categorys = ["cover", "editorial", "video", "brides", "print", "backstage", "makingoff", "caracters", "contact"];
 

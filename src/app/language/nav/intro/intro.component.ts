@@ -5,10 +5,10 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-theme-three',
-  templateUrl: './theme-three.component.html',
-  styleUrls: ['./theme-three.component.css']
+  templateUrl: './intro.component.html',
+  styleUrls: ['./intro.component.css']
 })
-export class ThemeThreeComponent implements OnInit {
+export class IntroComponent implements OnInit {
 
    constructor() {}
 

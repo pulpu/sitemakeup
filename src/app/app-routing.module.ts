@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 import { LanguageComponent } from './language/language.component';
 import { NavComponent } from './language/nav/nav.component';
 import { ParagraphComponent } from './language/nav/paragraph/paragraph.component';
-import { ThemeOneComponent } from './language/nav/theme-one/theme-one.component';
+import { AdminComponent } from './language/nav/admin/admin.component';
 import { ThemeTwoComponent } from './language/nav/theme-two/theme-two.component';
-import { ThemeThreeComponent } from './language/nav/theme-three/theme-three.component';
+import { IntroComponent } from './language/nav/intro/intro.component';
 import { ThemeVideoComponent } from './language/nav/theme-video/theme-video.component';
 import { PageNotFoundComponent } from './language/page-not-found/page-not-found.component';
 import { HomeComponent } from './language/home/home.component';
@@ -18,9 +18,11 @@ import { ErrorPageComponent } from './language/error-page/error-page.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent, children: [
-    { path: ':language', component: HomeComponent },
+    { path: ':language', component: IntroComponent },
     { path: ':language/:category', component: ThemeTwoComponent }, 
   ]}, 
+
+   {path: 'admin/ro/:id', component: AdminComponent, data: {message: 'Admin Page'}},
 
     {path: '', redirectTo: '/home/ro', pathMatch: 'full'},
     // {path: '404', component: PageNotFoundComponent},
