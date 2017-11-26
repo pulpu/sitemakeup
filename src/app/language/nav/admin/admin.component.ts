@@ -13,8 +13,38 @@ declare var $ :any;
   styleUrls: ['./admin.component.css']
 })
 export class AdminComponent implements OnInit {
-server: any[];
 path: string;
+server: any[];
+servers = [
+	{
+		agentia: 'default',
+		company: 'default',
+		id: 0,
+		img:  'default',
+		kind:  'default',
+		orientation:  'default',
+		photographer:  'default',
+		director:  'default',
+		smallimg:  'default',
+		paragraph:  'default',
+	}
+];
+  onAddServer(agentia: string, company: string, id: number, img: string, king: string, orientation: string, photographer: string, director: string, smallimg: string, pharagraph: string) {
+    this.servers.push({
+      agentia: agentia,
+      company: company,
+      id: id,
+      img: img,
+      kind: king,
+      orientation: orientation,
+      photographer: photographer,
+      director: director,
+      smallimg: smallimg,
+      paragraph: pharagraph
+    });
+  }
+
+
 
 
 

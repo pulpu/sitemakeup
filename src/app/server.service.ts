@@ -7,7 +7,7 @@ export class ServerService {
 	constructor(private http: Http){}
 	storeServer(server: any[]) {
 		const headers = new Headers({'Content-Type':'application/json'})
-		return this.http.put('https://makeupweb-f6410.firebaseio.com/data.json2', 
+		return this.http.post('https://makeupweb-f6410.firebaseio.com/data.json', 
 			server,
 			{headers: headers});
 	}
