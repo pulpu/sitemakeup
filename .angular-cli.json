@@ -20,7 +20,10 @@
         "testTsconfig": "tsconfig.spec.json",
         "prefix": "app",
         "styles": [
+<<<<<<< HEAD
             "styles.css",
+=======
+>>>>>>> b86dbea77f1eb0bf07f41b4dbcf96be07e3ad21a
             "../node_modules/bootstrap/dist/css/bootstrap.min.css",
             "../node_modules/fancybox/dist/css/jquery.fancybox.css",
             "css/master.css"

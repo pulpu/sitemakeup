@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import { BrowserModule } from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -12,6 +13,12 @@ import {MaterialModule} from './material/material.module';
 
 import {FileSelectDirective,FileDropDirective } from 'ng2-file-upload/ng2-file-upload';
 
+=======
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { HttpModule } from '@angular/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+>>>>>>> b86dbea77f1eb0bf07f41b4dbcf96be07e3ad21a
 
 import { Title } from '@angular/platform-browser';
 import { CategoriesService } from './categories.service';// ----------------- categoriesService -------------
@@ -45,25 +52,36 @@ import { ServerService } from './server.service';
     ThemeVideoComponent,
     PageNotFoundComponent,
     HomeComponent,
+<<<<<<< HEAD
     ErrorPageComponent,
     FileSelectDirective,
     FileDropDirective
+=======
+    ErrorPageComponent
+>>>>>>> b86dbea77f1eb0bf07f41b4dbcf96be07e3ad21a
   ],
   imports: [
     BrowserModule,
     AppRouterModule,
     HttpModule,
+<<<<<<< HEAD
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
     MaterialModule
 
+=======
+    BrowserAnimationsModule
+>>>>>>> b86dbea77f1eb0bf07f41b4dbcf96be07e3ad21a
   ],
   providers: [Title, CategoriesService, ServerService], // ----------------- categoriesService -------------
   bootstrap: [AppComponent]
 })
+<<<<<<< HEAD
 
+=======
+>>>>>>> b86dbea77f1eb0bf07f41b4dbcf96be07e3ad21a
 export class AppModule {
     public constructor(private titleService: Title ) { }
 

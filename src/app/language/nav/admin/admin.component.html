@@ -1,6 +1,10 @@
 <app-nav></app-nav>
 <div class="layout row">
+<<<<<<< HEAD
   <div *ngFor="let item of server; let index = index" [ngClass]="[item.orientation === 'portrait' ? 'mt-4 col-12 col-sm-6 col-md-3 grid-item' : 'mt-4 col-12 col-sm-12 col-md-6 grid-item']">
+=======
+  <div *ngFor="let item of server" [ngClass]="[item.orientation === 'portrait' ? 'mt-4 col-12 col-sm-6 col-md-3 grid-item' : 'mt-4 col-12 col-sm-12 col-md-6 grid-item']">
+>>>>>>> b86dbea77f1eb0bf07f41b4dbcf96be07e3ad21a
     <input type="text" #itemAgentia>
     <a class="fancybox fancybox-imgw" [ngStyle]="{'background-image': 'url( /assets/images/' + item.smallimg + ')'}" [href]="'/assets/images/' + item.img">
       <figure class="figure">
@@ -19,6 +23,7 @@
         </figcaption>
       </figure>
     </a>
+<<<<<<< HEAD
     <mat-divider></mat-divider>
     <mat-form-field class="example-form-field">
       <input matInput type="text" placeholder="Authour Name" value="{{item.photographer || item.director}}">
@@ -101,4 +106,11 @@
     <button class="btn btn-primary" (click)="onAddServer(serverName.value)">Add to object</button>
     <p> si {{serverName.value}} </p>
   </div>
+=======
+  </div>
+  <br>
+  <br>
+  <button class="btn btn-primary " (click)="onSave() ">Save on the database</button>
+  <button class="btn btn-primary " (click)="onAddServer() ">Add to object</button>
+>>>>>>> b86dbea77f1eb0bf07f41b4dbcf96be07e3ad21a
 </div>
