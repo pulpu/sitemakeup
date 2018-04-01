@@ -1,0 +1,40 @@
+
+1. Am instalat tweenLite cu metoda de pe pagina asta  https://stackoverflow.com/questions/37135894/using-tweenmax-in-angular2-project 
+a doua metoda 
+
+2.Am instalat fancybox si merge ex. prima poza din cover si editorial 
+
+3. baza de date (json) se afla aici https://console.firebase.google.com/project/makeupweb-f6410/database/data/data
+
+How you use :
+ run cmd
+and in the site root execute ng server  // this command is to create a srever on port http://localhost:4200
+and node-sass -o src/css src/sass/master.scss -w  // this command is to compilate you scss file 
+
+
+to do:
+
+	PBI nr. | what to do                                   | tasks								| - done
+	0001	| change color for active links				   | update styling						| - done
+	0002	| category change when click on menu links	   | add router.events.subscribe 		| - done
+	0003	| finish the css for listing 				   | create styling and update markup	| - done
+	0004	| update the structure of the database		   | update database (smallimg, )		| 
+	0005	| add the paragraph on the every category page | add animation (angular animation)	| - done
+	0006	| paragraph modal must be open when category   | de trimis animate = false; prin  	| - done
+			| page change, and maybe we must insert one    | router 							|
+			| more transition 							   |									|
+	0007 	| create "load more" funcion for listing	   | create ajax 						|
+	0008	| add better comments						   | add comments						|
+	0009	| refactoring								   | refactoring code					|
+	0010	| populate database							   | update database					|
+	0011	| create variable in sass for colors		   | create variable.scss, identify all	|
+			|											   | colors tray to keep just 3 colors	|
+	0012	| (bug)it take very long time to start		   | investigate and fix delay			| - in progres (an pus  	
+			|											   |									|$(".fancybox-imgw").
+			|											   |									|fancybox(); in ngDoCheck dar
+			|											   |									|cred ca ... nu stiu
+
+
+https://angular-university.io/lesson/angular2-router-initial-setup
+
+

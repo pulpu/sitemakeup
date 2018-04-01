@@ -1,0 +1,104 @@
+<app-nav></app-nav>
+<div class="layout row">
+  <div *ngFor="let item of server; let index = index" [ngClass]="[item.orientation === 'portrait' ? 'mt-4 col-12 col-sm-6 col-md-3 grid-item' : 'mt-4 col-12 col-sm-12 col-md-6 grid-item']">
+    <input type="text" #itemAgentia>
+    <a class="fancybox fancybox-imgw" [ngStyle]="{'background-image': 'url( /assets/images/' + item.smallimg + ')'}" [href]="'/assets/images/' + item.img">
+      <figure class="figure">
+        <span class="figure__action"><i class="icon icon--zoom"></i></span>
+        <figcaption class="figcaption ">
+          <div>
+            <div>
+              <i [ngClass]="[item.photographer ? 'icon icon--pictures' : 'icon icon--videos']"></i>
+              <span class="figcaption__author">{{item.photographer || item.director}}</span>
+            </div>
+            <div class="clearfix">
+              <span class="figcaption__brand">{{item.company}}</span>
+              <span class="small-uppercase">{{item.kind}}</span>
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </a>
+    <mat-divider></mat-divider>
+    <mat-form-field class="example-form-field">
+      <input matInput type="text" placeholder="Authour Name" value="{{item.photographer || item.director}}">
+      <button mat-button *ngIf="item.photographer || item.director" matSuffix mat-icon-button aria-label="Clear" (click)="item.photographer='' || item.director=''">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-select value="{{item.photographer ? 'photographer' : 'director'}}" placeholder="Authour kind">
+        <mat-option value="photographer">photographer</mat-option>
+        <mat-option value="director">director</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field class="example-form-field">
+      <input matInput type="text" placeholder="Brand Name" value="{{item.company}}">
+      <button mat-button *ngIf="item.company" matSuffix mat-icon-button aria-label="Clear" (click)="item.company=''">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+    <div>
+      <div class="row">
+        <div class="col-md-12">
+          <input type="file" ng2FileSelect [uploader]="uploader" />
+        </div>
+        <div class="col-md-12 pt-2" style="margin-bottom: 40px">
+          <table class="table row">
+            <thead>
+              <tr>
+                <th width="50%">Name</th>
+                <th>Status</th>
+                <th>Actions</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of uploader.queue">
+                <td><strong>{{ item?.file?.name }}</strong></td>
+                <td *ngIf="uploader.isHTML5" nowrap>{{ item?.file?.size/1024/1024 | number:'.2' }} MB</td>
+                <td *ngIf="uploader.isHTML5">
+                  <div class="progress" style="margin-bottom: 0;">
+                    <div class="progress-bar" role="progressbar" [ngStyle]="{ 'width': item.progress + '%' }"></div>
+                  </div>
+                </td>
+                <td class="text-center">
+                  <span *ngIf="item.isSuccess"><mat-icon>doer</mat-icon></span>
+                  <span *ngIf="item.isCancel"><mat-icon>not_interested</mat-icon></span>
+                  <span *ngIf="item.isError"><mat-icon>delete</mat-icon></span>
+                </td>
+                <td nowrap>
+                  <button type="button" class="btn btn-outline-success btn-sm" (click)="item.upload()" [disabled]="item.isReady || item.isUploading || item.isSuccess">
+                    <mat-icon>file_upload</mat-icon>
+                  </button>
+                  <button type="button" class="btn btn-outline-warning btn-sm" (click)="item.cancel()" [disabled]="!item.isUploading">
+                    <mat-icon>cancel</mat-icon>
+                  </button>
+                  <button type="button" class="btn btn-outline-danger btn-sm" (click)="item.remove()">
+                    <mat-icon>delete</mat-icon>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div>
+            <div>
+              Queue progress:
+              <div class="progress" style="">
+                <div class="progress-bar" role="progressbar" [ngStyle]="{ 'width': uploader.progress + '%' }"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary " (click)="onSave(index) ">Save on the database</button>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div>
+    <input type="text" name="" #serverName>
+    <button class="btn btn-primary" (click)="onAddServer(serverName.value)">Add to object</button>
+    <p> si {{serverName.value}} </p>
+  </div>
+</div>
